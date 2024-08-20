@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body{
+    height: 100vh;
+    font-family: 'Work Sans', sans-serif;
+    position: relative;
+    background-color: hsl(275, 100%, 97%);
+    background-image: url(./assets/images/background-pattern-desktop.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+    
+    
+    }
+
+    @media (max-width: 376px) {
+        body{
+            background-image: url(./assets/images/background-pattern-mobile.svg);
+            background-repeat: no-repeat;
+           
+            
+        }
+    }
+
+/* .banner{
+    height: 40%;
+}
+
+.banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    
+} */
+
+
+
+.d-flex img{
+    width: 25px;
+}
+
+.card-title{
+    font-weight: 700;
+    font-size: 40px;
+}
+.card-body{
+    background-color: hsl(0, 0%, 100%);
+    width: 550px;
+    position: absolute;
+    
+}  
+
+
+
+@media (max-width: 576px) {
+    .card-body{
+        width: 85%;
+       
+    }
+}
+
+
+
+.openablePart-1,  .openablePart-2, .openablePart-3, .openablePart-4{
+    display : none;
+    
+}
+
+ .active{
+    display: block;
+    
+ }
+
+ hr{
+    margin: 10px 0;
+    opacity: 0.1;
+ }
+
+
+
+
+
+
+
+
+
+
